@@ -4,7 +4,7 @@ pipeline {
    environment {
      // You must set the following environment variables
      ORGANIZATION_NAME = "mohitlearningprojects"
-     YOUR_DOCKERHUB_USERNAME = "mohitbansal6
+     YOUR_DOCKERHUB_USERNAME = "mohitbansal6"
      
      SERVICE_NAME = "fleetman-webapp"
      REPOSITORY_TAG="${YOUR_DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
